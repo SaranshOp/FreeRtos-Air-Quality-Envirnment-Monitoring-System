@@ -10,8 +10,10 @@ A real-time environmental monitoring system using FreeRTOS on an Arduino platfor
 ✅ **LCD Display** – 16x2 I2C LCD for real-time data visualization.  
 ✅ **FreeRTOS Integration** – Efficient multitasking with semaphores.
 
-📌 **[System Architecture](Assets/system_architecture.png)**  
-📌 **[Implementation](Assets/implementation.png)**
+## 📚 Documentation
+
+![System Architecture](/Assets/system_architecture.png)
+![Implementation](Assets\Implimentation.png)
 
 ## 🔧 Components
 
@@ -23,16 +25,16 @@ A real-time environmental monitoring system using FreeRTOS on an Arduino platfor
 
 ## Setup
 
-📌 **[Setup Diagram](Assets/image.png)**
+<img src="Assets/image.png" alt="Setup Diagram" width="390" />
 
-### 1️ Hardware Connections
+### 1️. Hardware Connections
 
 - **DHT22** → Pin 2
 - **DS3231 RTC** → I2C (SDA, SCL)
 - **MQ135** → Analog Pin (A0)
 - **LCD Display** → I2C (SDA, SCL)
 
-### 2️ Software Setup
+### 2️. Software Setup
 
 1. Install required libraries:
    ```bash
