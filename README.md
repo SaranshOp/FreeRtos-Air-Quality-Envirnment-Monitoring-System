@@ -13,7 +13,6 @@ A real-time environmental monitoring system using FreeRTOS on an Arduino platfor
 ## 📚 Documentation
 
 ![System Architecture](/Assets/system_architecture.png)
-![Implementation](Assets\Implimentation.png)
 
 ## 🔧 Components
 
@@ -50,6 +49,8 @@ The system is structured using FreeRTOS tasks:
 🔹 **TaskReadRTC** – Reads real-time clock data.  
 🔹 **TaskReadMQ135** – Reads air quality values.  
 🔹 **TaskPrintVal** – Displays sensor data on the LCD.
+
+![Implementation](/Assets/Implimentation.png)
 
 ### 📌 **Why FreeRTOS?**
 
